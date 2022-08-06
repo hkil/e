@@ -1,6 +1,8 @@
 
 source("https://raw.githubusercontent.com/hkil/m/master/r3m.r")
 
+# Note 'wcf' is a built-in dataset.
+
 meta_tree(data = wcf, study, cont_type,
                  group, err_type, time,
           abb_names = TRUE, 
