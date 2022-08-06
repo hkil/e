@@ -1,5 +1,5 @@
 
-
+wcf <- read.csv("https://raw.githubusercontent.com/hkil/m/master/wcf.csv")
 
 meta_tree(wcf, study, cont_type,
                 group, err_type, time,
