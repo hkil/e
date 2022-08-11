@@ -9,7 +9,7 @@ meta_tree(data = wcf, study, cont_type, # place 'study' first, and the design el
          abb_length = 5,       # Allow up to 5 charachters to display after abbreviation
           num_names = TRUE,    # Convert character codings to numerics for easier display
          num_except = "study", # Don't convert variable 'study' to numerics
-                cex = 1.6,     # size of font in the visual
-           cex_main = 1.7,     # size of font in the visual's caption
-            cex_top = 1.2)     # size of font in the visual's top labels
+                cex = 1,       # size of font in the visual
+           cex_main = 1,       # size of font in the visual's caption
+            cex_top = 1)       # size of font in the visual's top labels
 
