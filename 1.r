@@ -3,7 +3,7 @@ source("https://raw.githubusercontent.com/hkil/m/master/r3m.r")
 
 # Note: 'wcf' dataset is built into the R package sourced above. 
 
-meta_tree(data = wcf, study, cont_type, # place 'study' first, and the design elements after that
+meta_tree(data = wcf, study, cont_type, # Put 'study' first, then put design elements after it
                  group, err_type, time,
           abb_names = TRUE,    # Abbreviate long-character codings
          abb_length = 5,       # Allow up to 5 charachters to display after abbreviation
