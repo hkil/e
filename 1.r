@@ -1,7 +1,8 @@
 
 source("https://raw.githubusercontent.com/hkil/m/master/r3m.r")
 
-# Note: 'wcf' dataset is built into the R package sourced above. 
+# Note: 'wcf' dataset is built into the R package sourced above.
+# The article will discuss wcf dataset in later sections.
 
 meta_tree(data = wcf, study, cont_type, # Put 'study' first, then put design elements after it
                  group, err_type, time,
