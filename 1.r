@@ -1,5 +1,5 @@
 
-source("https://raw.githubusercontent.com/hkil/m/master/r3m.r")
+source("https://raw.githubusercontent.com/hkil/m/master/3m.r")
 
 # Note: 'wcf' dataset is built into the R package sourced above.
 # The article will discuss wcf dataset in later sections.
